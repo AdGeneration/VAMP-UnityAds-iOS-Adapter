@@ -1,0 +1,3 @@
+//
+//  VAMP-UnityAds-iOS-Adapter
+//
