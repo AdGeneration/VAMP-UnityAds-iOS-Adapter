@@ -36,13 +36,13 @@ let package = Package(
         
         .binaryTarget(
             name: "VAMPUnityAdsAdapter",
-            url: "https://github.com/AdGeneration/VAMP-UnityAds-iOS-Adapter/releases/download/4.20.100/VAMPUnityAdsAdapter-v4.20.100.zip",
-            checksum: "a2e792debcccc62a07fa32c305d7c1e927dce1b2da11b605fe26b61f480b949a"
+            url: "https://github.com/AdGeneration/VAMP-UnityAds-iOS-Adapter/releases/download/4.21.0/VAMPUnityAdsAdapter-v4.21.0.zip",
+            checksum: "c2ee82672098af84be695e7ea760e1d6e9059cad4eb0ce14a65bb3adc72676aa"
         ),
         .binaryTarget(
             name: "UnityAds",
-            url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.20.1/UnityAds.zip",
-            checksum: "c7fba62bec9fe1f703caf83931cce65452bbfca4a3e742c338d57d845c4ad840"
+            url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.21.0/UnityAds.zip",
+            checksum: "ca0b2a3c5529c0fd4211a8afa61390ded8a64ea218c69056cffbc2ad31c399f8"
         )
     ]
 )
