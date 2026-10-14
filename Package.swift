@@ -20,6 +20,10 @@ let package = Package(
             url: "https://github.com/AdGeneration/VAMP-iOS-SDK",
             "5.3.2"..<"6.0.0"
         ),
+        .package(
+            url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package",
+            exact: "4.21.0"
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -29,7 +33,7 @@ let package = Package(
             dependencies: [
                 .target(name: "VAMPUnityAdsAdapter"),
                 .product(name: "VAMP", package: "VAMP-iOS-SDK"),
-                .target(name: "UnityAds"),
+                .product(name: "UnityAds", package: "Unity-Ads-Swift-Package"),
             ],
             path: "VAMPUnityAdsAdapterTarget"
         ),
@@ -39,10 +43,5 @@ let package = Package(
             url: "https://github.com/AdGeneration/VAMP-UnityAds-iOS-Adapter/releases/download/4.21.0/VAMPUnityAdsAdapter-v4.21.0.zip",
             checksum: "c2ee82672098af84be695e7ea760e1d6e9059cad4eb0ce14a65bb3adc72676aa"
         ),
-        .binaryTarget(
-            name: "UnityAds",
-            url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.21.0/UnityAds.zip",
-            checksum: "ca0b2a3c5529c0fd4211a8afa61390ded8a64ea218c69056cffbc2ad31c399f8"
-        )
     ]
 )
