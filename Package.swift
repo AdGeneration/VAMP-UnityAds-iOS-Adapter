@@ -22,7 +22,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package",
-            exact: "4.21.0"
+            exact: "4.22.0"
         ),
     ],
     targets: [
@@ -40,8 +40,8 @@ let package = Package(
         
         .binaryTarget(
             name: "VAMPUnityAdsAdapter",
-            url: "https://github.com/AdGeneration/VAMP-UnityAds-iOS-Adapter/releases/download/4.21.0/VAMPUnityAdsAdapter-v4.21.0.zip",
-            checksum: "c2ee82672098af84be695e7ea760e1d6e9059cad4eb0ce14a65bb3adc72676aa"
+            url: "https://github.com/AdGeneration/VAMP-UnityAds-iOS-Adapter/releases/download/4.22.0/VAMPUnityAdsAdapter-v4.22.0.zip",
+            checksum: "7bd5898d9dbb7132bb36167aac7ed885ea8decc392dab3571eb9f7b5da4d29ca"
         ),
     ]
 )
